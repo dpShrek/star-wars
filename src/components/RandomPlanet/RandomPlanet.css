@@ -1,0 +1,66 @@
+.randomPlanet-list {
+    border-top: solid 1px white;
+    list-style: none;
+    display: table;
+    padding: 10px;
+    width: 100%;
+}
+
+.randomPlanet-wrapper {
+  margin-top: 20px;
+}
+
+.randomPlanet-icon {
+    width: 200px;
+    height: 200px;
+}
+
+.randomPlanet-icon img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.card {
+    padding: 5px;
+    flex-direction: inherit;
+    margin: 0 auto;
+}
+
+.randomPlanet-card ul {
+    margin: 0;
+}
+
+.randomPlanet-center {
+   margin: 0 auto;
+   height: 212px;
+}
+
+.planetError-wrapper {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.randomPlanet-list__span-strong{
+    font-weight: 600;
+    color:blueviolet;
+}
+
+.randomPlanet-title {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 769px) { 
+    .card {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    
+}
